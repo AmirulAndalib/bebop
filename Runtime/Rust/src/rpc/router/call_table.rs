@@ -129,9 +129,13 @@ impl RouterCallTable {
         if let Some((Some(id), res)) = v {
             if let Some(mut call) = self.call_table.remove(&id) {
                 call.resolve(res);
+            } else {
+                // already handled (probably?)
             }
         } else if let Some(cb) = urh {
             cb(datagram)
+        } else {
+            // we don't know what it is and there's no handler for that case
         }
     }
 
@@ -246,6 +250,7 @@ mod test {
         let pending = ct.register::<TestStruct>(&request);
         tokio::time::sleep(Duration::from_secs(1)).await;
 
+        assert!(pending.is_expired());
         ct.drop_expired(id);
         assert!(!ct.call_table.contains_key(&id));
         assert!(matches!(

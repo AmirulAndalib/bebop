@@ -1,14 +1,20 @@
 {
     "compilerOptions": {
-        "target": "esnext",
+        "target": "ES2022",
         "module": "commonjs",
         "outDir": "dist",
+        "newLine": "lf",
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "moduleResolution": "node",
+        "sourceRoot": "src",
+        "sourceMap": true,
         "declaration": true,
-        "moduleResolution": "node"
     },
     "exclude": [
         "node_modules",
         "dist",
         ".npm"
-    ]
+    ],
+    "include": ["src/**/*.ts"]
 }
