@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "BebopCore.dll": "sha256-Vc4ZMu5qXZC7ZkygXUmt9ekECMtohU04j8U5+zUDwCM=",
+      "BebopCore.dll": "sha256-rrxDnT\/q3dc4Dz8Sw5TZFa+PvmYya7rJ2Nmp7goDtAc=",
       "BlazorMonaco.dll": "sha256-Hbwc+8Nc7E6NYECP0pDCuU7w9KjJoNK0LYI95D\/mJEI=",
       "Errata.dll": "sha256-w4T7cuzBtXO9VGWT10WO1dk36B8DahpPVU3Usb6w\/FQ=",
       "Microsoft.AspNetCore.Components.dll": "sha256-xnUFNFk\/WsDdhM3cEeqh6sKEcIoXJ6zHae9Tag9kx7Y=",
@@ -24,7 +24,7 @@
       "Microsoft.Extensions.Primitives.dll": "sha256-eXvGx2jcjpTPEJoAHBsW\/VuMPbNyyU+AsuhPmkzSSRY=",
       "Microsoft.JSInterop.dll": "sha256-1GhkJyOn1KG7\/DDO+na\/ymLnCAvtmZINvHbkIdGF+oI=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-dtKm86rx8+scNgFoMXC71MicQVGTw0I9Jbe4yWypUBI=",
-      "Repl.dll": "sha256-H2sDAE19bM6Jqqn3ttF8BFh0o2JVxw+v9gF9yy4T1TY=",
+      "Repl.dll": "sha256-vZXhWWzv4DzlIODxHXIV0aTQfaSC1tLFhlzCL2aMSqI=",
       "Spectre.Console.dll": "sha256-BskpLN3N6Obe6A894j5ShRNvfeNnGomzdEFe+82zOA4=",
       "System.Collections.Concurrent.dll": "sha256-NR7YEskDtro3y60yMome50WZuMRvyY7V7xXJMgKsjC4=",
       "System.Collections.dll": "sha256-oxJhiPoSXDSGEh0LPqxCTh6b9iY65IJh1\/WV8k+kUVQ=",
