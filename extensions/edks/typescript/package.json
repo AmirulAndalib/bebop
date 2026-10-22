@@ -10,7 +10,7 @@
     "postinstall": "yarn vite-node install-javy.ts"
   },
   "devDependencies": {
-    "esbuild": "^0.19.11",
+    "esbuild": "^0.28.1",
     "javy-cli": "^3.0.1",
     "typescript": "^5.3.3",
     "vite-node": "^2.1.1"
