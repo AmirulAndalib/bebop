@@ -14,9 +14,9 @@ required-features = ["pprof"]
 # Use exact versions for all things being tested
 [dependencies]
 bebop = { path = "../../../Runtime/Rust" }
-protobuf = "2.28.0"
+protobuf = "3.7.2"
 serde = { version = "1.0.127", features = ["derive"] }
-pprof = { version = "0.11", features = ["criterion", "flamegraph"], optional = true}
+pprof = { version = "0.15", features = ["criterion", "flamegraph"], optional = true}
 criterion = { version = "0.4", features = ["html_reports"] }
 serde_json = "1.0.66"
 rmp-serde = "1.1.1"
