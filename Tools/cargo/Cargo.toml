@@ -16,7 +16,7 @@ homepage = "https://docs.bebop.sh"
 
 [dependencies]
 reqwest = { version = "0.12.8", features = ["blocking"], optional = true }
-zip = { version = "2.2.0", optional = true }
+zip = { version = "7.0.0", optional = true }
 json = { version = "0.12.4", optional = true }
 which = { version = "6.0.3", optional = true }
 
